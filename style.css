@@ -5,6 +5,10 @@
     box-sizing: border-box;
 	text-decoration: none;
 }
+.cu-content div {
+    padding-top: 1em;
+}
+
 .cu-content{
     text-align: center;
     display: flex;
@@ -72,7 +76,11 @@ html{
 .navbar .menu li a:hover{
     color: crimson;
 }
-
+/*.logo{
+    background: linear-gradient(315deg, #80808069, #00000000);
+        border-radius: 0.5em;
+        backdrop-filter: blur(0.5px);
+}*/
 /* .navbar.sticky .menu li a:hover{
     color: #fff;
 } */
@@ -116,7 +124,9 @@ html{
 
 .home{
     display: flex;
-    background: url(images/fondo2-modificado3.png) no-repeat center;
+    /*background: url(images/fondo2-modificado3.png) no-repeat center;*/
+    /*background: url(images/background1.jpg) no-repeat center;*/
+    background: url(images/background1-transformed.jpeg) no-repeat center;
     background-size: cover;
     /* background-image: radial-gradient(circle, #732718, #751832, #68184c, #4b2561, #08306d); */
     background-size: cover;
@@ -672,6 +682,11 @@ footer span a:hover{
 .owl-nav *{
     outline: none !important;
 }
+.menu {
+    background: linear-gradient(1deg, #8080807a, #00000000);
+    border-radius: 0.5em;
+    backdrop-filter: blur(0.1px);
+}
 
 
 
@@ -699,6 +714,9 @@ footer span a:hover{
     .menu-btn{
         display: block;
         z-index: 99999;
+        background: linear-gradient(210deg, #808080fc, #00000000);
+        border-radius: 0.1em;
+        backdrop-filter: blur(0.1px);
     }
     
     .menu-btn i.active:before{
